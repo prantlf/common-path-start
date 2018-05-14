@@ -1,0 +1,45 @@
+{
+  "name": "common-path-start",
+  "description": "Detects the same starting part of the path in an array of file paths.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/prantlf/common-path-start",
+  "author": {
+    "name": "Ferdinand Prantl",
+    "email": "prantlf@gmail.com",
+    "url": "http://prantl.tk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/common-path-start.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prantlf/common-path-start/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/prantlf/common-path-start/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard *.js tests/*.js",
+    "check": "tap tests/*.js",
+    "test": "npm run lint && npm run check"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tap": "^11.1.5"
+  },
+  "keywords": [
+    "path",
+    "same",
+    "common",
+    "start",
+    "cut"
+  ]
+}
