@@ -15,7 +15,7 @@ function detectCommonPathStart (paths) {
       return true
     }
   })
-  return {commonParts, commonPathCount}
+  return { commonParts, commonPathCount }
 
   function checkCommonPathParts (parts) {
     parts.find((part, index) => {
@@ -31,7 +31,7 @@ function detectCommonPathStart (paths) {
 }
 
 function getCommonPathStart (paths) {
-  const {commonParts, commonPathCount} = detectCommonPathStart(paths)
+  const { commonParts, commonPathCount } = detectCommonPathStart(paths)
   let commonPathStart = ''
   if (commonPathCount) {
     let result = []
@@ -48,7 +48,7 @@ function getCommonPathStart (paths) {
 }
 
 function getCommonPathLength (paths) {
-  const {commonParts, commonPathCount} = detectCommonPathStart(paths)
+  const { commonParts, commonPathCount } = detectCommonPathStart(paths)
   let commonPathLength = 0
   if (commonPathCount) {
     commonParts.find((part, index) => {
