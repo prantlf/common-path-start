@@ -32,9 +32,8 @@ function detectCommonPathStart (paths) {
 
 function getCommonPathStart (paths) {
   const { commonParts, commonPathCount } = detectCommonPathStart(paths)
-  let commonPathStart = ''
   if (commonPathCount) {
-    let result = []
+    const result = []
     commonParts.find((part, index) => {
       if (index >= commonPathCount) {
         return true
@@ -44,7 +43,7 @@ function getCommonPathStart (paths) {
     result.push('')
     return result.join('/')
   }
-  return commonPathStart
+  return ''
 }
 
 function getCommonPathLength (paths) {
