@@ -1,10 +1,9 @@
 # common-path-start
 
-[![NPM version](https://badge.fury.io/js/common-path-start.png)](http://badge.fury.io/js/common-path-start)
-[![Build Status](https://travis-ci.org/prantlf/common-path-start.svg?branch=master)](https://travis-ci.org/prantlf/common-path-start)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-
-[![NPM Downloads](https://nodei.co/npm/common-path-start.png?downloads=true&stars=true)](https://www.npmjs.com/package/common-path-start)
+[![Latest version](https://img.shields.io/npm/v/common-path-start)
+ ![Dependency status](https://img.shields.io/librariesio/release/npm/common-path-start)
+](https://www.npmjs.com/package/common-path-start)
+[![Coverage](https://codecov.io/gh/prantlf/common-path-start/branch/master/graph/badge.svg)](https://codecov.io/gh/prantlf/common-path-start)
 
 Detects the same starting part of the path in an array of file paths and returns it, its length, or it cuts it from the specified file paths.
 
@@ -28,10 +27,12 @@ wikimedia.org.html
 
 ## Installation
 
-You need [node >= 6][node] and [npm] installed. You may install this module with the following command:
+You need [node >= 6][node]. Install the package using your favourite package manager:
 
 ```sh
-$ npm install common-path-start --save
+npm i common-path-start
+pnpm i common-path-start
+yarn add common-path-start
 ```
 
 ## Programmatic Usage
@@ -64,10 +65,6 @@ Expects an array of strings with file paths and returns a new array with file pa
 
 In lieu of a formal styleguide, take care to maintain the existing coding style.
 
-## Release History
-
- * 2018-05-14   v0.0.1   Initial release
-
 ## License
 
 Copyright (c) 2018-2022 Ferdinand Prantl
@@ -75,4 +72,3 @@ Copyright (c) 2018-2022 Ferdinand Prantl
 Licensed under the MIT license.
 
 [node]: http://nodejs.org
-[npm]: http://npmjs.org
